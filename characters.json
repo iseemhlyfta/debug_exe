@@ -1,0 +1,8 @@
+{
+  "characters": [
+    {"id": "coder",  "name": "Кодди",        "desc": "Универсал. Базовые характеристики.",         "stats": {}, "flags": []},
+    {"id": "hacker", "name": "Тимми",        "desc": "Быстрый и хрупкий. Частые слабые выстрелы.", "stats": {"cooldown_max": 14, "damage": 1, "speed": 5.4, "max_half": 4, "half": 4, "bullet_speed": 8}, "flags": []},
+    {"id": "admin",  "name": "Себастьян",     "desc": "Живучий и медленный. Тяжёлые выстрелы.",     "stats": {"cooldown_max": 30, "damage": 3, "speed": 3.6, "max_half": 8, "half": 8, "tear_size": 13}, "flags": []},
+    {"id": "tester", "name": "Брок",  "desc": "Старт с пробивающими снарядами.",            "stats": {"bullet_life": 32}, "flags": ["pierce"]}
+  ]
+}

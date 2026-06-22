@@ -1,0 +1,15 @@
+{
+  "difficulty": "hard",
+  "characters": {
+    "coder": {
+      "best_floor": 1
+    },
+    "admin": {
+      "best_floor": 3,
+      "completed": true
+    }
+  },
+  "resolution_idx": 0,
+  "fullscreen": false,
+  "master_volume": 1.0
+}

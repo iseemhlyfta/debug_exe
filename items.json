@@ -1,0 +1,25 @@
+{
+  "items": [
+    {"id": "damage",    "name": "Разгон ЦП",             "color": "stat",    "pool": true,  "stats": {"damage": 1}},
+    {"id": "firerate",  "name": "Разгон ОЗУ", "color": "stat",    "pool": true,  "stats": {"cooldown_max": -3}},
+    {"id": "range",     "name": "Дальность +",        "color": "stat",    "pool": true,  "stats": {"bullet_life": 25}},
+    {"id": "movespeed", "name": "Скорость +",         "color": "stat",    "pool": true,  "stats": {"speed": 0.7}},
+    {"id": "shotspeed", "name": "Скорость снаряда +", "color": "shot",    "pool": true,  "stats": {"bullet_speed": 2}},
+    {"id": "tears",     "name": "Размер снаряда +",     "color": "stat",    "pool": true,  "stats": {"tear_size": 2}},
+    {"id": "luck",      "name": "Клевер удачи",       "color": "luck",    "pool": true,  "stats": {"luck": 2}},
+    {"id": "maxhp",     "name": "Макс. HP +",         "color": "hp",      "pool": true,  "stats": {"max_half": 2, "half": 2}},
+    {"id": "heal",      "name": "Восстановить жизни",            "color": "hp",      "pool": false, "stats": {"half": 2}},
+    {"id": "triple",    "name": "Тройной выстрел",    "color": "shot",    "pool": true,  "flags": ["triple"], "stats": {"cooldown_max": 4}},
+    {"id": "pierce",    "name": "Пробивающие",        "color": "shot",    "pool": true,  "flags": ["pierce"], "stats": {"bullet_life": -10}},
+    {"id": "homing",    "name": "Самонаведение",      "color": "shot",    "pool": true,  "flags": ["homing"], "stats": {"damage": -1, "cooldown_max": 2}},
+    {"id": "shield",    "name": "Файрвол",            "color": "special", "pool": true,  "stats": {"max_shield": 1}},
+    {"id": "vampire",   "name": "Пиявка",             "color": "shot",    "pool": true,  "flags": ["vampire"]},
+    {"id": "bigshot",   "name": "Тяжёлые снаряды",    "color": "shot",    "pool": true,  "stats": {"tear_size": 3, "damage": 1, "bullet_speed": -1}},
+    {"id": "sniper",    "name": "Снайпер",     "color": "shot",    "pool": true,  "stats": {"bullet_speed": 4, "bullet_life": 25, "cooldown_max": 1}},
+    {"id": "berserk",   "name": "Берсерк",       "color": "shot",    "pool": true,  "stats": {"damage": 3, "cooldown_max": 2}},
+    {"id": "map",       "name": "Карта",       "color": "special", "pool": false, "stats": {"full_map": 1}},
+    {"id": "bossheart", "name": "Сердечный модуль",   "color": "hp",      "pool": false, "boss": true, "stats": {"max_half": 2, "half": 2}},
+    {"id": "bossdmg",   "name": "Боевой апгрейд",     "color": "stat",    "pool": false, "boss": true, "stats": {"damage": 1}},
+    {"id": "bossrate",  "name": "Ускоритель ввода",   "color": "stat",    "pool": false, "boss": true, "stats": {"cooldown_max": -2}}
+  ]
+}
